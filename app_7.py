@@ -59,7 +59,7 @@ def main():
     
     # Apresenta a imagem na barra lateral da aplicação
     image = Image.open("Bank-Branding.jpg") 
-    st.image(image))
+    st.image(image)
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
